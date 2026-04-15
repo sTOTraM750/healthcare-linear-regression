@@ -95,3 +95,34 @@ This makes the model useful for real-world decision making.
 Age is a statistically significant factor in determining healthcare cost.
 
 This means the relationship observed is not due to random chance.
+
+
+## Model Evaluation & Diagnostics
+
+### Metrics Used:
+- R-squared
+- Residual analysis
+- Diagnostic plots
+
+### Insights:
+- R² shows how much variance is explained
+- Residuals reveal model errors
+- Diagnostics check assumptions (linearity, normality)
+
+This ensures the model is reliable before using it in real-world decisions.
+
+
+## Visual Analytics
+
+This project includes visual analysis of the regression model:
+
+### Plots:
+- Scatter plot with regression line
+- Residual vs fitted plot
+- Histogram of residuals
+- Q-Q plot for normality
+
+### Insights:
+- Visual confirmation of linear relationship
+- Residual patterns help detect model issues
+- Distribution checks validate assumptions
