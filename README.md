@@ -67,3 +67,17 @@ source("R/04_visualization.R")
 ## Key Learning
 
 This project builds the foundation of Machine Learning by implementing regression mathematically instead of using black-box libraries.
+
+
+
+##  Explainable Analytics
+
+This project goes beyond prediction by interpreting the regression model.
+
+## Key Insights:
+- β0 represents baseline cost
+- β1 represents cost increase per year
+- Confidence interval shows uncertainty in slope
+- Prediction interval gives range of expected cost
+
+This makes the model useful for real-world decision making.
