@@ -1,1 +1,4 @@
-Interpretation complete
+Intercept: 2101.52413488687 
+Slope: 527.07885762636 
+Cost increase per year: 527.07885762636 
+Cost increase for 10 years: 5270.7885762636

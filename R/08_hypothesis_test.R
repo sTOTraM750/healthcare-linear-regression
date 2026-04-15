@@ -1,6 +1,6 @@
 data <- read.csv("data/hcd.csv")
 
-model <- lm(Billing.Amount ~ Age, data = data )
+model <- lm(Billing.Amount ~ Age, data = data)
 
 summary_model <- summary(model)
 print(summary_model)
@@ -17,4 +17,4 @@ if (p_value < 0.05) {
   cat("Fail to reject H0: Age is not significant\n")
 }
 
-write(capture.output(summary_model), "output/hypothesis_result.txt")
+writeLines(capture.output(summary_model), "output/hypothesis_result.txt")

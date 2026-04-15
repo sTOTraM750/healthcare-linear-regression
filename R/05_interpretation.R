@@ -16,5 +16,11 @@ cat("Meaning: For every 1 year increase in age, cost increases by", beta1, "\n\n
 cat("For 10 years increase:\n")
 cat("Cost increase =", beta1 * 10, "\n")
 
-# Save
-write("Interpretation complete", "output/interpretation.txt")
+output_text <- paste(
+  "Intercept:", beta0,
+  "\nSlope:", beta1,
+  "\nCost increase per year:", beta1,
+  "\nCost increase for 10 years:", beta1 * 10
+)
+
+writeLines(output_text, "output/interpretation.txt")

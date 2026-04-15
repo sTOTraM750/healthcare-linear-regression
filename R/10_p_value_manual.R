@@ -2,7 +2,7 @@ data <- read.csv("data/hcd.csv")
 
 model <- lm(Billing.Amount ~ Age, data = data)
 
-t_value <- summary(model)$coefficients[2,3]
+t_value <- summary(model)$coefficients[2, 3]
 
 df <- nrow(data) - 2
 
