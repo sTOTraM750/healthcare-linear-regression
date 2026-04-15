@@ -69,7 +69,6 @@ source("R/04_visualization.R")
 This project builds the foundation of Machine Learning by implementing regression mathematically instead of using black-box libraries.
 
 
-
 ##  Explainable Analytics
 
 This project goes beyond prediction by interpreting the regression model.
@@ -81,3 +80,18 @@ This project goes beyond prediction by interpreting the regression model.
 - Prediction interval gives range of expected cost
 
 This makes the model useful for real-world decision making.
+
+
+## Hypothesis Testing
+
+### Hypothesis:
+- H0: Age has no effect on healthcare cost
+- H1: Age affects healthcare cost
+
+### Result:
+- p-value < 0.05 → Reject H0
+
+### Conclusion:
+Age is a statistically significant factor in determining healthcare cost.
+
+This means the relationship observed is not due to random chance.

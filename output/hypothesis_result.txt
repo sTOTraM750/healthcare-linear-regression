@@ -1,0 +1,19 @@
+
+Call:
+lm(formula = Billing.Amount ~ Age, data = data)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-955.5 -472.6 -137.8  365.4 1829.8 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 2101.524    291.156   7.218 3.41e-09 ***
+Age          527.079      5.294  99.565  < 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 677 on 48 degrees of freedom
+Multiple R-squared:  0.9952,	Adjusted R-squared:  0.9951 
+F-statistic:  9913 on 1 and 48 DF,  p-value: < 2.2e-16
+
